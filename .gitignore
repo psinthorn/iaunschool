@@ -1,3 +1,6 @@
+#ignore wp-config for security reason
+wp-config.php
+
 # ignore everything in the root except the "wp-content" directory.
 !wp-content/
 
