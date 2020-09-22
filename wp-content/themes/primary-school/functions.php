@@ -72,9 +72,9 @@
         if (strstr($_SERVER['SERVER_NAME'], 'i-aun-school.local')) {
              wp_enqueue_script('primary-main-js', 'http://localhost:3000/bundled.js', NULL,'1.0', true );
         } else {
-            wp_enqueue_script('vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.8c97d901916ad616a264.js'), NULL,'1.0', true );
-            wp_enqueue_script('primary-main-js', get_theme_file_uri('/bundled-assets/scripts.cadac3d75c965bd1a20a.js'), NULL,'1.0', true );
-            wp_enqueue_style('main_styles', get_stylesheet_uri('/bundled-assets/styles.cadac3d75c965bd1a20a.css'));
+            wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.8c97d901916ad616a264.js'), NULL, '1.0', true);
+            wp_enqueue_script('main-university-js', get_theme_file_uri('/bundled-assets/scripts.cadac3d75c965bd1a20a.js'), NULL, '1.0', true);
+            wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.cadac3d75c965bd1a20a.css'));
         }
         
     }
